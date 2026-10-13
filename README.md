@@ -1,5 +1,7 @@
 # Vocaltabber
 
+I really like making my guitar sing vocals from songs. Here's a project that generates tablature off the vocals of any song.
+
 One MP3 in → isolated vocals MP3 + detected vocal notes MIDI + text guitar tablature. Runs locally using Demucs (htdemucs, CPU) and Basic Pitch (explicit ONNX runtime). No account or hosted inference. Demucs downloads model weights on the first run; subsequent runs can work offline with the cached weights. Audio is not uploaded.
 
 ## Install (macOS Apple Silicon)
